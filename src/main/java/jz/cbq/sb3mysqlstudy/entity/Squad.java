@@ -43,5 +43,5 @@ public class Squad {
     /**
      * 自习室
      */
-    private String classRoom;
+    private String squadRoom;
 }
