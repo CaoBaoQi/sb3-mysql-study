@@ -1,0 +1,4 @@
+CREATE DATABASE IF NOT EXISTS cbq COLLATE utf8mb4_general_ci;
+
+
+
