@@ -8,46 +8,40 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * Student
+ * Course
  *
  * @author cbq
- * @date 2023/11/30 21:34
+ * @date 2023/11/30 23:07
  * @since 1.0.0
  */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class Student {
+public class Course {
     /**
      * id
      */
     @TableId(value = "id" ,type = IdType.AUTO)
     private Integer id;
     /**
-     * 学号
+     * 课程号
      */
-    private String studentId;
+    private String courseId;
     /**
-     * 姓名
+     * 课程名称
      */
     private String name;
     /**
-     * 性别
+     * 前置课程
      */
-    private String sex;
+    private String needCourse;
     /**
-     * 年龄
+     * 课程性质
      */
-    private Integer age;
+    private String quality;
     /**
-     * 所属班级
+     * 绩点
      */
-    private String belongSquad;
-    /**
-     * 籍贯
-     */
-    private String city;
-
-
+    private Integer score;
 }

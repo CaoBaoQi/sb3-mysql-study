@@ -5,7 +5,7 @@ create table tb_student
     name         varchar(128)         not null comment '姓名',
     sex          char    default '男' null comment '性别',
     age          tinyint default 20   null comment '年龄',
-    belong_class varchar(128)         null comment '所在班级',
+    belong_squad varchar(128)         null comment '所在班级',
     city         varchar(128)         null comment '籍贯',
     constraint student_pk
         primary key (id)

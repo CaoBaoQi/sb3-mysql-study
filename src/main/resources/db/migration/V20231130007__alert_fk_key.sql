@@ -1,6 +1,6 @@
 alter table cbq.tb_student
-    add constraint tb_student_tb_class_class_id_fk
-        foreign key (belong_class) references tb_class (class_id);
+    add constraint tb_student_tb_squad_squad_id_fk
+        foreign key (belong_squad) references tb_squad (squad_id);
 
 alter table cbq.tb_select_course
     add constraint tb_select_course_tb_course_course_id_fk
