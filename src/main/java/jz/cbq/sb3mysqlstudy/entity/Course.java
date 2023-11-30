@@ -1,14 +1,17 @@
 package jz.cbq.sb3mysqlstudy.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 /**
- * Course
+ * 课程实体类
  *
  * @author cbq
  * @date 2023/11/30 23:07
@@ -44,4 +47,9 @@ public class Course {
      * 绩点
      */
     private Integer score;
+    /**
+     * 学生列表
+     */
+    @TableField(exist = false)
+    private List<Student> students;
 }
