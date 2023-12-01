@@ -1,30 +1,27 @@
-import { navbar } from "vuepress-theme-hope";
+import {navbar} from "vuepress-theme-hope";
 
 export default navbar([
-  "/",
-  "/demo/",
-  {
-    text: "指南",
-    icon: "lightbulb",
-    prefix: "/guide/",
-    children: [
-      {
-        text: "Bar",
-        icon: "lightbulb",
-        prefix: "bar/",
-        children: ["baz", { text: "...", icon: "ellipsis", link: "" }],
-      },
-      {
-        text: "Foo",
-        icon: "lightbulb",
-        prefix: "foo/",
-        children: ["ray", { text: "...", icon: "ellipsis", link: "" }],
-      },
-    ],
-  },
-  {
-    text: "V2 文档",
-    icon: "book",
-    link: "https://theme-hope.vuejs.press/zh/",
-  },
+    "/",
+    {
+        text: "BOOK",
+        icon: "/book.svg",
+        prefix: "/book",
+        children: [
+            "",
+            {text: "数据库基本知识", icon: "/mysql-item.svg", link: "/mysql01.md"},
+        ],
+    }, {
+        text: "PROJECT",
+        icon: "/project.svg",
+        prefix: "/project",
+        children: [
+            "",
+            {text: "开始", icon: "/note.svg", link: "/project01.md"},
+        ],
+    },
+    {
+        text: "UPDATE ",
+        icon: "/update.svg",
+        link: "/CHANGELOG.md",
+    }
 ]);

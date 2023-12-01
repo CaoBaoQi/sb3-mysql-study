@@ -5,16 +5,16 @@ import sidebar from "./sidebar.js";
 export default hopeTheme({
 
     author: {
-        name: "Mr.CaoBaoQi",
+        name: "Dr.曹宝琪",
         url: "https://github.com/CaoBaoQi",
         email: "2023cbq@gmail.com"
     },
 
     iconAssets: "fontawesome-with-brands",
-
+    darkmode: "enable",
     logo: "/logo.svg",
 
-    repo: "https://github.com/CaoBaoQi",
+    repo: "https://gitee.com/cola777jz/sb3-mysql-study",
 
     docsDir: "src",
 
@@ -23,6 +23,8 @@ export default hopeTheme({
 
     // sidebar
     sidebar,
+
+    favicon: "/favicon.ico",
 
     footer: "Power by <a href=\"https://github.com/CaoBaoQi/\" target=\"_blank\">CBQ</a> | MIT Licensed, Copyright © 2024-present",
 
@@ -43,10 +45,10 @@ export default hopeTheme({
         // You should generate and use your own comment service
         comment: {
             provider: "Giscus",
-            repo: "CaoBaoQi/docsify-template",
-            repoId: "R_kgDOKx6Q2A",
+            repo: "CaoBaoQi/sb3-mysql-study",
+            repoId: "R_kgDOK0ATmQ",
             category: "Announcements",
-            categoryId: "DIC_kwDOKx6Q2M4CbYTM",
+            categoryId: "DIC_kwDOK0ATmc4CbbJS",
         },
 
         // All features are enabled for demo, only preserve features you need here
