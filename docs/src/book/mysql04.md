@@ -252,7 +252,15 @@ MySQL 中提供了多种数据类型主要是数值型、 字符串型、 日期
 
 ### 3.1 数值型
 
-MySQ L 中支持的数值型包括：整型 TINYINT 、 SMALLINT 、 MEDIUMINT 、 INT 、 BIGINT ，浮点小数型 FLOAT 、 DOUBIÆ ，定点小数型 DECIMAL关键字 INT 是 INTEGER 的同义词，关键字 DEC 是 DECIMAL 的同义词表 4 一 1 中对不同的数值型的存储、范围及用途进行了说明
+MySQL 中支持的数值型包括：
+
+- 整型 TINYINT 、 SMALLINT 、 MEDIUMINT 、 INT 、 BIGINT 
+- 浮点小数型 FLOAT 、 DOUBIÆ 
+- 定点小数型 DECIMAL
+
+关键字 INT 是 INTEGER 的同义词，关键字 DEC 是 DECIMAL 的同义词
+
+表 4 一 1 中对不同的数值型的存储、范围及用途进行了说明
 
 TODO
 
