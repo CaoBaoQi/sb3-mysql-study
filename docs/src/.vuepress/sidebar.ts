@@ -21,6 +21,11 @@ export default sidebar({
             text: "UPDATE ",
             icon: "/update.svg",
             link: "CHANGELOG.md",
+        },
+        {
+            text: "DEMO ",
+            icon: "/demo.svg",
+            link: "DEMO.md",
         }
     ],
 });
